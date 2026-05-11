@@ -15,4 +15,14 @@ npm run dev
 npm run build
 ```
 
-GitHub Pages deployment is configured in `.github/workflows/deploy-pages.yml`.
+## GitHub Pages deployment
+
+Deployment is configured in `.github/workflows/deploy.yml` and publishes the Vite build output from `dist/`.
+
+Required repository setting:
+
+- **Settings → Pages → Source**: **GitHub Actions**
+
+Public URL:
+
+- https://bugisnull4396.github.io/dev-utility-hub/
